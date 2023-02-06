@@ -99,7 +99,7 @@ WSGI_APPLICATION = "zq_402_backend.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "HOST": "",
+        "HOST": "resource-mysql",
         "PORT": 3306,
         "USER": "root",
         "PASSWORD": "root",
